@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+*{
+	box-sizing: border-box;
+	font-size: 45px;
+	
+	
+}
+.row{
+display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+.green{
+	height:100px;
+	width: 100px;
+	background-color: green;
+}
+.red{
+	height:100px;
+	width: 100px;
+	background-color: red;
+}
+.blue{
+	height:100px;
+	width: 100px;
+	background-color: blue;
+}
